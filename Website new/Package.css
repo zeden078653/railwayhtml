@@ -1,0 +1,40 @@
+
+
+body{
+    background: url("2.jpg") no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    color: red;
+    width: 75%;
+
+}
+.images{
+    border: 2px solid black;
+    
+}
+img{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}

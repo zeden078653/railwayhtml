@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+body{
+    background: url("rail.jpg") no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+}
+
+#heading{
+    text-shadow: -2px -2px 20px white;
+    font-size: 100PX;
+    color: rgb(8, 0, 12);
+    font-weight: 700;
+    padding:50PX;
+    margin: 30PX;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+nav{
+    border: 2px solid white; 
+    padding: 15px;
+    margin: 15px 0 15px 0;
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-weight: 500;
+    float: left;
+    font-size: 30px;
+}
+
+
+nav a:hover{
+    border: black solid 2px;
+    padding: 20px;
+    color: rgb(3, 125, 129);
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.main h1{
+    margin: 20px;
+    padding: 20px;
+    text-shadow: -2px -2px 20px white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form_bod{
+    border: 1px solid white;
+    grid-area: span 2/ span 1;
+    padding: .5rem; 
+}
+
+
+.form_bod input, form select{
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+
+.form_bod button{
+    padding: .5rem;
+    font-size: 15px;
+    width: 49%;
+    border-radius: .5rem;
+    border:1px solid black;
+    cursor: pointer;
+}
+
+.form_bod button:hover{
+    font-weight: bold;
+    background-color: rgb(168, 236, 179);
+}
+
+.album{
+    border: 1px solid white;
+    text-align: center;
+}
+
+.album > span{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.album p{
+    font-size: 4rem;
+}
+
+.album .images h2{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.album .images img, .album .videos div{
+    border: 2px solid white;
+    width: 30%;
+    height: 1.5in;
+    margin: .5rem;
+}
+
+h2{
+    margin: 1.5rem 0rem 1rem 0rem ;
+    font-size: 50px;
+    color: white;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+}
+
+.videos div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.album .videos div a img:hover{
+    opacity: .6;
+}
+.album .videos div a img{
+    border-radius: 100%;
+    width: 15%;
+}
+
+.plans{
+    border: 2px solid white;
+    text-align: center;
+}
+
+.plans h2{
+    margin: 1rem 0rem;
+    color: white;
+}
+
+.plans #t1{
+    background: url("2.jpg") no-repeat;
+    background-blend-mode: color;
+    background-attachment:scroll;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.plans #t2{
+    background: url("1.jpg") no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    background-blend-mode: color;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.plans h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.plans #t3{
+    background: url("3.jpg") no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.plans > div{
+    text-align: center;
+    border: 2px solid rgb(254, 255, 254);
+    display: inline-block;
+    width: 30%;
+    margin: 0rem .5rem;
+    background-color: white;
+}
+
+.plans div h3{
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+}
+.end{
+    height: 2em; 
+    padding: 15px;
+    margin:15px;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    font-size: 50px;
+}

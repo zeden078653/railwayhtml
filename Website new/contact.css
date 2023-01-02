@@ -1,0 +1,45 @@
+
+
+body{
+    background: url("rail.jpg") no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    backdrop-filter: blur(8px);
+    color: white;
+}
+.form_head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form{
+    border: 3px solid rgb(0, 0, 0);
+    margin: 50px;
+    padding: 50px;
+    color: red; 
+    font-size: 40px;
+}
+input{
+    margin: 20px;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(247, 0, 0);
+}
+textarea{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.submit{
+    width: 75%;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.submit:hover{
+
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
